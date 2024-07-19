@@ -2,11 +2,14 @@
 C:\Program Files\Git\etc\profile.d
 
 #laravel
-alias as='php artisan serve'
 alias a='php artisan'
+alias akg='php artisan key:generate'
+alias as='php artisan serve'
 alias at='php artisan test --compact'
 alias atp='php artisan test --parallel'
 alias am='php artisan migrate'
+alias amr='php artisan migrate:refresh'
+alias adbs='php artisan db:seed'
 alias acc='php artisan cache:clear'
 alias arl='php artisan route:list'
 alias pa='./vendor/bin/phpstan analyse'
@@ -26,6 +29,14 @@ alias gpu='git pull'
 
 #composer
 alias du='composer dump-autoload'
+
+#npm
+alias ni='npm install'
+alias nr='npm run'
+alias nrs='npm run start'
+alias nrb='npm run build'
+alias nrd='npm run dev'
+alias nrt='npm run test'
 
 #docker
 alias d='docker'
