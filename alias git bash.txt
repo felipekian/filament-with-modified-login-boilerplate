@@ -1,0 +1,31 @@
+<< PATH >>
+C:\Program Files\Git\etc\profile.d
+
+#laravel
+alias as='php artisan serve'
+alias a='php artisan'
+alias at='php artisan test --compact'
+alias atp='php artisan test --parallel'
+alias am='php artisan migrate'
+alias acc='php artisan cache:clear'
+alias arl='php artisan route:list'
+alias pa='./vendor/bin/phpstan analyse'
+alias stan='./vendor/bin/phpstan analyse'
+alias larastan='./vendor/bin/phpstan analyse'
+
+#node
+alias vite='npm install && npm run dev'
+alias viteb='npm run build'
+
+#git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpu='git pull'
+
+#composer
+alias du='composer dump-autoload'
+
+#docker
+alias d='docker'
